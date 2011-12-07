@@ -1,0 +1,23 @@
+{
+  "name": "incapp",
+  "version": "0.0.1",
+  "description": "Make it easier to manage couch-incarnate incarnators",
+  "keywords": "couchdb, incarnate, incarnator",
+  "author": {
+    "name": "Alon Keren",
+    "url": "http://alon.me"
+  },
+  "files": ["main.js", "./bin/incapp.js"],
+  "main": "main.js",
+  "bin": {
+    "incapp": "./bin/incapp.js"
+  },
+  "dependencies": {
+    "request": ">=2.2.9",
+    "commander": ">=0.5.0"
+  },
+  "engines": {
+    "node": ">=0.6.2",
+    "npm": ">=1.0.106"
+  }
+}
